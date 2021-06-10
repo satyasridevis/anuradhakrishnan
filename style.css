@@ -1,0 +1,324 @@
+
+/* COLOUR PALLETE : #474853,#ee4c7c*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Great+Vibes&family=Kaushan+Script&family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: url("./images/Colorful-Stingrays2.svg");
+}
+/* WELCOME SECTION --- HOME PAGE */
+#welcome-section
+{
+  width: 100%;
+  height: 100vh;
+}
+/*HEADER SECTION ---  LOGO IMAGE ---NAVIGATION BAR --- PROGRESS BAR*/
+header
+{
+  position: fixed;
+  top:0;
+  z-index: 1;
+  width: 100%;
+  box-shadow: 0px 4px 7px #fff;
+  backdrop-filter: blur(10px);
+
+}
+header.scroll {
+  backdrop-filter: blur(10px);
+  
+}
+
+
+#navbar
+{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+width: 100%;
+height: 15vh;
+background: transparent;
+font-family: 'Fugaz One', cursive;
+}
+
+#navbar img
+{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position:relative;
+  right: 7%;
+}
+#navbar .menu
+{
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 5%;
+}
+#navbar li
+{
+  list-style: none;
+}
+#navbar a{
+  text-decoration: none;
+  padding: 30px;
+  color: #474853;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+}
+
+.progress-container
+{
+  width: 100%;
+  height: .5vh;
+  background: pink;
+
+}
+
+.progress-bar
+{
+  height: 1vh;
+  background: #474853;
+  width: 0%;
+}
+
+/* MY NAME HEADING AND WELCOME IMAGE SECTION (WELCOME OR HOME BANNER */
+.container
+{
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+
+}
+h1
+{
+  font-size: 4em;
+  position: relative;
+  color: #1f2833;
+  text-align: center;
+  /*background:-webkit-linear-gradient(#e7177d,#ee4c7c,#9a1750);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+  top: 22vh;
+  line-height: 1.9;
+  font-family: 'Dancing Script', cursive;
+  letter-spacing: 8px;
+  font-weight: 800;
+}
+span
+{
+  font-family: 'Great Vibes', cursive;
+  font-weight: bolder;
+  color: #ee4c7c;
+}
+
+#section-image
+{
+
+width: 400px;
+height:70vh;
+position: relative;
+margin: auto;
+top: 50px;
+}
+
+/* ABOUT ME PAGE SECTION */
+#about-me-section
+{
+  width: 100%;
+  height: 100vh;
+}
+#about-me-section .aboutmecontainer
+{ 
+   max-width: 50%;
+   height: 450px;
+   margin: auto;
+   backdrop-filter: blur(100px);
+   position: relative;
+   top: 50px;
+   border: 3px solid #474853;
+   text-align:center;
+}
+
+#about-me-section .aboutmecontainer .logoimage
+{
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+  
+}
+
+#about-me-section .aboutmecontainer p
+{
+  margin: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* WORKOUT SECTION */
+
+#workout-section 
+{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#workout-section .workout-container
+{
+  max-width: 87%;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction:column;
+  position: relative;
+  top: 30px;
+}
+
+#workout-section .workout-container .headingsection 
+{
+  width: 400px;
+  height: 70px;
+  margin: auto;
+  color:#fff;
+  background:#f785a7;
+  text-align: center;
+  border: 3px solid #474853;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 5px;
+  font-family: 'Great Vibes', cursive;
+  letter-spacing: 2px;
+  font-weight: bold;
+
+}
+
+
+
+
+/* BACK TO TOP BUTTON */
+
+#button
+{
+  display: none;
+
+  position: fixed;
+  z-index: 99;
+  bottom: 30px;
+  right: 30px;
+
+  border: none;
+  outline: none;
+
+  background-color:#ee4c7c;
+  color: white;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1em;
+  letter-spacing: 1px;
+  cursor: pointer;
+
+}
+
+#button:hover {
+
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+
+
+
+
+@media screen and (max-width: 600px)
+{
+  #navbar
+{
+  text-align:center;
+  width: 50%;
+  margin: auto;
+}
+#navbar img
+{
+  display: none;
+}
+
+#navbar a
+{
+
+font-family: 'Lato', sans-serif;
+font-weight: bold;
+letter-spacing: 1px;
+padding:15px;
+font-size:22px;
+color:#474853;
+
+}
+h1
+{
+  width: 100%;
+  font-size: 3.5em;
+  text-align: center;
+  line-height: 1.3;
+}
+
+span
+{
+  color:#ee4c7c;
+}
+#section-image
+{
+  width: 400px;
+  height: 70vh;
+  margin: auto;
+  position: relative;
+  top:100px;
+
+}
+
+#about-me-section .aboutmecontainer
+{ 
+   max-width: 90%;
+   height: 450px;
+   margin: auto;
+   backdrop-filter: blur(5px);
+   position: relative;
+   top: 120px;
+   border: 3px solid #474853;
+}
+
+#about-me-section .aboutmecontainer p
+{
+  margin: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+#workout-section .workout-container
+{
+  position: relative;
+  top: 10rem;
+}
+
+
+
+
+
+
+}
+ 
