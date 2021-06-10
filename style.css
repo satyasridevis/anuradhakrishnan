@@ -317,10 +317,10 @@ left:3%
 #about-me-section .aboutmecontainer
 {
   width: 100%;
-  margin: auto;
+
   height: 550px;
   position: relative;
-  left: 0;
+  
 }
 #workout-section .workout-container
 {
