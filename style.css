@@ -316,17 +316,18 @@ left:3%
 #about-me-section
 {
   width: 100%;
+
 }
 
 #about-me-section .aboutmecontainer
 {
   width: 100%;
   position: relative;
-  margin: 0 auto;
+  margin: auto;
   border: none;
-
   height: 550px;
-  position: relative;
+  backdrop-filter: blur(5px)
+
   
 }
 #workout-section .workout-container
