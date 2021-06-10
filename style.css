@@ -317,6 +317,8 @@ left:3%
 #about-me-section .aboutmecontainer
 {
   width: 96%;
+  position: relative;
+  margin: auto;
 
   height: 550px;
   position: relative;
