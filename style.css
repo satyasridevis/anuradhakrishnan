@@ -276,7 +276,7 @@ color:#474853;
   display:flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
+  
  }
 h1
 {
@@ -288,7 +288,7 @@ h1
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;*/
   top: 22vh;
-  
+  left: 3%;
   line-height: 1.9;
   font-family: 'Dancing Script', cursive;
   letter-spacing: 8px;
@@ -309,15 +309,18 @@ height:400px;
 position: relative;
 margin: auto;
 top: 80px;
+left:3%
+
 
 }
-
-
 
 #about-me-section .aboutmecontainer
 {
   width: 100%;
   margin: auto;
+  height: 500px;
+  position: relative;
+  left: 3%;
 }
 
 
