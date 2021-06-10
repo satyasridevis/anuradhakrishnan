@@ -141,7 +141,7 @@ top: 50px;
 }
 #about-me-section .aboutmecontainer
 { 
-   max-width: 50%;
+   width: 50%;
    height: 450px;
    margin: auto;
    backdrop-filter: blur(100px);
