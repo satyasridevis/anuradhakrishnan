@@ -177,7 +177,7 @@ top: 50px;
 
 #workout-section .workout-container
 {
-  max-width: 87%;
+  max-width: 90%;
   height: 500px;
   margin: auto;
   display: flex;
@@ -309,7 +309,7 @@ height:400px;
 position: relative;
 margin: auto;
 top: 100px;
-left:4%
+left:3%
 
 
 }
@@ -320,7 +320,7 @@ left:4%
   margin: auto;
   height: 550px;
   position: relative;
-  left: 4%;
+  left: 3%;
 }
 #workout-section .workout-container
 {
