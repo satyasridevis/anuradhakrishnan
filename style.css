@@ -269,6 +269,10 @@ padding:15px;
 font-size:22px;
 color:#474853;
 }
+#about-me-section .aboutmecontainer
+{
+  width: 100%;
+}
 
 
 
