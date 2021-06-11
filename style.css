@@ -141,7 +141,7 @@ top: 50px;
 }
 #about-me-section .aboutmecontainer
 { 
-   width: 50%;
+   width: 500px;
    height: 450px;
    margin: auto;
    backdrop-filter: blur(100px);
@@ -149,6 +149,7 @@ top: 50px;
    top: 50px;
    border: 3px solid #474853;
    text-align:center;
+   background: pink;
 }
 
 #about-me-section .aboutmecontainer .logoimage
@@ -304,12 +305,12 @@ span
 #section-image
 {
 
-width: 100%;
+width: 90%;
 height:400px;
 position: relative;
 margin: auto;
 top: 100px;
-left:3%
+
 
 
 }
@@ -322,10 +323,9 @@ left:3%
 #about-me-section .aboutmecontainer
 {
   width: 100%;
-  position: relative;
+  
   margin: auto;
-  border: none;
-  height: 550px;
+  
   backdrop-filter: blur(5px)
 
   
