@@ -246,6 +246,17 @@ top: 50px;
 
 @media screen and (max-width:393px) 
 {
+
+  .container 
+  {
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+  }
+  #section-image
+  {
+    width: 100%;
+  }
   #about-me-section .aboutmecontainer
   {
     width: 100%;
