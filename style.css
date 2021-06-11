@@ -244,102 +244,23 @@ top: 50px;
   background-color: #555;
 }
 
-
-
-
-@media screen and (max-width: 393px)
+@media screen and (max-width:393px) 
 {
+  #about-me-section .aboutmecontainer
+  {
+    width: 100%;
 
-#navbar
-{
-  text-align:center;
-  width: 50%;
-  margin: auto;
-}
-#navbar img
-{
-  display: none;
-}
+  }
 
-#navbar a
-{
-font-family: 'Lato', sans-serif;
-font-weight: bold;
-letter-spacing: 1px;
-padding:15px;
-font-size:22px;
-color:#474853;
-}
-.container
-{
-  width: 100%;
-  margin: auto;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  
- }
-h1
-{
-  font-size: 4em;
-  position: relative;
-  color: #1f2833;
-  text-align: center;
-  /*background:-webkit-linear-gradient(#e7177d,#ee4c7c,#9a1750);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;*/
-  top: 22vh;
-  left: 3%;
-  line-height: 1.9;
-  font-family: 'Dancing Script', cursive;
-  letter-spacing: 8px;
-  font-weight: 800;
-}
-span
-{
-  font-family: 'Great Vibes', cursive;
-  font-weight: bolder;
-  color: #ee4c7c;
-}
-
-#section-image
-{
-
-width: 90%;
-height:400px;
-position: relative;
-margin: auto;
-top: 100px;
-
-
-
-}
-#about-me-section
-{
-  width: 100%;
-
-}
-
-#about-me-section .aboutmecontainer
-{
-  width: 100%;
-  
-  margin: auto;
-  
-  backdrop-filter: blur(5px)
-
+  #about-me-section .aboutmecontainer p
+  {
+    width: 100%;
+    
+  }
   
 }
-#workout-section .workout-container
-{
-  width: 100%;
-}
 
-#workout-section .workout-container .headingsection
-{
-  width: 98%;
-  margin: auto;
-}
+
 
 
 
