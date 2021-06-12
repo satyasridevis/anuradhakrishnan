@@ -257,7 +257,7 @@ top: 50px;
   .container
   {
     width: 100%;
-    margin: auto;
+    margin:  1rem;
   }
 
 
@@ -268,8 +268,8 @@ top: 50px;
 
   #about-me-section .aboutmecontainer
   {
-    width:90%;
-    margin: auto;
+    width:100%;
+    margin: 1rem;
     background: red;
     position: relative;
     top: 50px;
