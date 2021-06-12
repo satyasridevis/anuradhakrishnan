@@ -257,13 +257,14 @@ top: 50px;
   .container
   {
     width: 100%;
-    margin:  1rem;
+    margin: 1rem;
   }
 
 
   #sectionimage
   {
     width: 100%;
+    object-fit: fill;
   }
 
   #about-me-section .aboutmecontainer
@@ -273,7 +274,7 @@ top: 50px;
     
     position: relative;
     top: 50px;
-    height: 500px;
+    height: 550px;
 
   }
 
@@ -285,7 +286,7 @@ top: 50px;
 
   #workout-section .workout-container .headingsection 
   {
-    width: 90%;
+    width: 95%;
     margin: 2rem;
   }
 }
