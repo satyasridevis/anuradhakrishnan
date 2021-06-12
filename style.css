@@ -244,31 +244,16 @@ top: 50px;
   background-color: #555;
 }
 
-@media screen and (max-width:393px) 
+@media screen and (max-width:600px)
 {
-
-  .container 
-  {
-    width: 100%;
-    display: flex;
-    flex-direction:column;
-  }
-  #section-image
+  header 
   {
     width: 100%;
   }
-  #about-me-section .aboutmecontainer
+  #navbar img 
   {
-    width: 100%;
-
+    display: none;
   }
-
-  #about-me-section .aboutmecontainer p
-  {
-    width: 100%;
-    
-  }
-  
 }
 
 

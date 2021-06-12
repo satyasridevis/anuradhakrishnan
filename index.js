@@ -1,5 +1,5 @@
 
-// PROGRESS BAR
+//PROGRESS BAR
 
 /*window.onscroll = function()
 {
@@ -44,4 +44,6 @@ window.onscroll = () => {
    document.body.scrollTop = 0;
    document.documentElement.scrollTop = 0;
  }
+
+ 
  
