@@ -270,10 +270,17 @@ top: 50px;
   {
     width:100%;
     margin: 1rem;
-    background: red;
+    
     position: relative;
     top: 50px;
+    height: 500px;
 
+  }
+
+  #workout-section .workout-container
+  {
+    width: 100%;
+    margin: 1rem;
   }
 }
 
