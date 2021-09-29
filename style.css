@@ -1,74 +1,60 @@
-
 /* COLOUR PALLETE : #474853,#ee4c7c*/
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kaushan+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Great+Vibes&family=Kaushan+Script&family=Sigmar+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&family=Great+Vibes&family=Kaushan+Script&family=Sigmar+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
 
-*
-{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   background: url("./images/Colorful-Stingrays2.svg");
 }
 /* WELCOME SECTION --- HOME PAGE */
-#welcome-section
-{
+#welcome-section {
   width: 100%;
   height: 100vh;
 }
 /*HEADER SECTION ---  LOGO IMAGE ---NAVIGATION BAR --- PROGRESS BAR*/
-header
-{
+header {
   position: fixed;
-  top:0;
+  top: 0;
   z-index: 1;
   width: 100%;
-  box-shadow: 0px 4px 7px #fff;
-  backdrop-filter: blur(10px);
-
 }
 header.scroll {
-  backdrop-filter: blur(10px);
-  
+  display: none;
 }
 
-
-#navbar
-{
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-align-items: center;
-width: 100%;
-height: 15vh;
-background: transparent;
-font-family: 'Fugaz One', cursive;
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 15vh;
+  background: transparent;
+  font-family: "Fugaz One", cursive;
 }
 
-#navbar img
-{
+#navbar img {
   width: 80px;
   height: 80px;
-  border-radius: 50%;
-  position:relative;
-  right: 7%;
+
+  position: relative;
 }
-#navbar .menu
-{
+#navbar .menu {
   display: flex;
   align-items: center;
   position: relative;
   left: 5%;
 }
-#navbar li
-{
+#navbar li {
   list-style: none;
 }
-#navbar a{
+#navbar a {
   text-decoration: none;
   padding: 30px;
   color: #474853;
@@ -76,33 +62,27 @@ font-family: 'Fugaz One', cursive;
   letter-spacing: 1px;
 }
 
-.progress-container
-{
+.progress-container {
   width: 100%;
-  height: .5vh;
+  height: 0.5vh;
   background: pink;
-
 }
 
-.progress-bar
-{
+.progress-bar {
   height: 1vh;
   background: #474853;
   width: 0%;
 }
 
 /* MY NAME HEADING AND WELCOME IMAGE SECTION (WELCOME OR HOME BANNER */
-.container
-{
+.container {
   width: 100%;
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   margin: auto;
-
 }
-h1
-{
+h1 {
   font-size: 4em;
   position: relative;
   color: #1f2833;
@@ -110,108 +90,109 @@ h1
   /*background:-webkit-linear-gradient(#e7177d,#ee4c7c,#9a1750);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;*/
-  top: 22vh;
+  top: 10vh;
   line-height: 1.9;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   letter-spacing: 8px;
   font-weight: 800;
 }
-span
-{
-  font-family: 'Great Vibes', cursive;
+span {
+  font-family: "Great Vibes", cursive;
   font-weight: bolder;
   color: #ee4c7c;
 }
+.svgimg {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  top: 80px;
+  font-family: "Share Tech Mono", monospace;
+}
 
-#section-image
-{
-
-width: 400px;
-height:70vh;
-position: relative;
-margin: auto;
-top: 50px;
+#flyflag,
+#flag {
+  animation: fly 1.3s infinite alternate;
+}
+@keyframes fly {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(20px);
+  }
+}
+.typewrite {
+  text-decoration: none;
+  font-size: 0.8em;
 }
 
 /* ABOUT ME PAGE SECTION */
-#about-me-section
-{
+#about-me-section {
   width: 100%;
-  height: 100vh;
+  height: 700px;
 }
-#about-me-section .aboutmecontainer
-{ 
-   width: 500px;
-   height: 450px;
-   margin: auto;
-   backdrop-filter: blur(100px);
-   position: relative;
-   top: 50px;
-   border: 3px solid #474853;
-   text-align:center;
-   background: pink;
+#about-me-section .aboutmecontainer {
+  width: 500px;
+  height: 450px;
+  margin: auto;
+  backdrop-filter: blur(100px);
+  position: relative;
+  top: 200px;
+  border: 3px solid #474853;
+  text-align: center;
+  background: pink;
 }
 
-#about-me-section .aboutmecontainer .logoimage
-{
+#about-me-section .aboutmecontainer .logoimage {
   width: 100px;
   height: 100px;
   margin-top: 30px;
-  
 }
 
-#about-me-section .aboutmecontainer p
-{
+#about-me-section .aboutmecontainer p {
   margin: 1rem;
   font-size: 1.5rem;
   text-align: center;
 }
 
-/* WORKOUT SECTION */
+/* WORKOUT SECTION 
 
-#workout-section 
-{
-    width: 100%;
-    height: 100vh;
-    
+#workout-section {
+  width: 100%;
+  height: 100vh;
 }
 
-#workout-section .workout-container
-{
+#workout-section .workout-container {
   max-width: 90%;
   height: 500px;
   margin: auto;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   position: relative;
   top: 30px;
 }
 
-#workout-section .workout-container .headingsection 
-{
+#workout-section .workout-container .headingsection {
   width: 400px;
   height: 70px;
   margin: auto;
-  color:#fff;
-  background:#f785a7;
+  color: #fff;
+  background: #f785a7;
   text-align: center;
   border: 3px solid #474853;
   font-size: 2rem;
   padding: 1rem;
   border-radius: 5px;
-  font-family: 'Great Vibes', cursive;
+  font-family: "Raleway", sans-serif;
   letter-spacing: 2px;
   font-weight: bold;
-
-}
-
-
-
+}*/
 
 /* BACK TO TOP BUTTON */
 
-#button
-{
+#button {
   display: none;
 
   position: fixed;
@@ -222,10 +203,10 @@ top: 50px;
   border: none;
   outline: none;
 
-  background-color:#ee4c7c;
-  color: white;
-  width: 50px;
-  height: 50px;
+  color: #ee4c7c;
+
+  width: 40px;
+  height: 40px;
   text-align: center;
   border-radius: 4px;
   font-weight: bold;
@@ -233,78 +214,121 @@ top: 50px;
   font-size: 1em;
   letter-spacing: 1px;
   cursor: pointer;
-
+}
+#button .fas {
+  font-size: 2em;
 }
 
 #button:hover {
-
   background-color: #333;
 }
 #button:active {
   background-color: #555;
 }
 
-@media screen and (max-width:600px)
-{
-  header 
-  {
-    width: 100%;
+footer {
+  width: 100%;
+  height: 80px;
+  background-color: #f5a1ba;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.fab,
+.fas {
+  color: #1f2833;
+  font-size: 4.3em;
+}
+
+@media screen and (max-width: 400px) {
+  .fab,
+  .fas {
+    color: #1f2833;
+    font-size: 2em;
   }
-  #navbar img 
-  {
-    display: none;
+  h1 {
+    font-size: 2.9em;
+    position: relative;
+    color: #1f2833;
+    text-align: center;
+    /*background:-webkit-linear-gradient(#e7177d,#ee4c7c,#9a1750);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+    top: 8vh;
+    line-height: 1.9;
+    font-family: "Dancing Script", cursive;
+    letter-spacing: 8px;
+    font-weight: 800;
   }
-  .container
-  {
-    width: 100%;
-    margin: 1rem;
+  .svgimg {
+    width: 350px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+
+    font-family: "Share Tech Mono", monospace;
   }
 
-
-  #sectionimage
-  {
+  #about-me-section {
     width: 100%;
-    object-fit: fill;
-  }
-
-  #about-me-section .aboutmecontainer
-  {
-    width:100%;
-    margin: 1rem;
-    
+    height: 800px;
     position: relative;
     top: 50px;
-    height: 550px;
-
   }
-
-  #workout-section .workout-container
-  {
+  #about-me-section .aboutmecontainer {
     width: 100%;
-    margin: 1rem;
-  }
+    height: 500px;
 
-  #workout-section .workout-container .headingsection 
-  {
-    width: 90%;
-    margin: 2rem;
-    width:75px;
+    border: 3px solid #474853;
+    text-align: center;
+    background: pink;
   }
 }
 
+@media screen and (max-width: 600px) {
+  .fab,
+  .fas {
+    color: #1f2833;
+    font-size: 2em;
+  }
+  h1 {
+    font-size: 2.9em;
+    position: relative;
+    color: #1f2833;
+    text-align: center;
+    /*background:-webkit-linear-gradient(#e7177d,#ee4c7c,#9a1750);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+    top: 8vh;
+    line-height: 1.9;
+    font-family: "Dancing Script", cursive;
+    letter-spacing: 8px;
+    font-weight: 800;
+  }
+  .svgimg {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    position: relative;
 
+    font-family: "Share Tech Mono", monospace;
+  }
+  #about-me-section {
+    width: 100%;
+  }
+  #about-me-section .aboutmecontainer {
+    width: 100%;
+    height: 500px;
 
-
-
-
-
-
-
-
-
-
-
-
-
+    border: 3px solid #474853;
+    text-align: center;
+    background: pink;
+  }
+  #button .fas {
+    font-size: 1.9em;
+  }
 }
- 
