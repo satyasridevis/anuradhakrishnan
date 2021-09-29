@@ -272,6 +272,7 @@ footer {
     margin: auto;
     text-align: center;
     position: relative;
+    bottom: 50px;
 
     font-family: "Share Tech Mono", monospace;
   }
