@@ -15,7 +15,7 @@ body {
 /* WELCOME SECTION --- HOME PAGE */
 #welcome-section {
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
 }
 /*HEADER SECTION ---  LOGO IMAGE ---NAVIGATION BAR --- PROGRESS BAR*/
 header {
@@ -157,17 +157,13 @@ span {
   text-align: center;
 }
 
-
 a {
   text-decoration: none;
 }
- #mywork-section {
+#mywork-section {
   width: 100%;
   height: 100vh;
-  
 }
-
-
 
 /* BACK TO TOP BUTTON */
 
