@@ -131,7 +131,7 @@ span {
 /* ABOUT ME PAGE SECTION */
 #about-me-section {
   width: 100%;
-  height: 700px;
+  /* height: 700px; */
 }
 #about-me-section .aboutmecontainer {
   width: 500px;
