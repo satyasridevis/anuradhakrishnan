@@ -200,11 +200,14 @@ a {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   text-decoration: none;
+  color: #1f2833;
 }
-
+.articles-heading:hover {
+  color: #ee4c7c;
+}
 footer {
   width: 100%;
-  height: 80px;
+  height: 100px;
   background-color: #f5a1ba;
   position: relative;
   bottom: 0;
