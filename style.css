@@ -261,6 +261,7 @@ footer {
   }
   #about-me-section .aboutmecontainer {
     width: 100%;
+    height: auto;
     position: relative;
     bottom: 50px;
     border: none;
