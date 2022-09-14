@@ -212,8 +212,11 @@ a {
   width: 100%;
   padding: 2rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   background: white;
+  text-align: center;
 }
 .book-container {
   width: 70%;
