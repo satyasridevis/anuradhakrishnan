@@ -91,8 +91,8 @@ span {
 }
 .svgimg {
   width: 500px;
-  height: 600px;
-  margin: auto;
+  height: 500px;
+  margin: 0 auto;
   text-align: center;
   position: relative;
   /* top: 80px; */
@@ -116,6 +116,8 @@ span {
 #about-me-section {
   width: 100%;
   height: auto;
+  margin-bottom: 50px;
+  margin-top: 0;
 }
 #about-me-section .aboutmecontainer {
   width: 500px;
@@ -127,6 +129,7 @@ span {
   border: 3px solid #474853;
   text-align: center;
   background: pink;
+  padding: 10px;
 }
 
 #about-me-section .aboutmecontainer .logoimage {
@@ -237,6 +240,7 @@ footer {
     width: 100%;
     height: auto;
     position: relative;
+
     /* top: 10px; */
   }
   #about-me-section .aboutmecontainer {
