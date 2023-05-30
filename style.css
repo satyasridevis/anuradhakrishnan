@@ -232,8 +232,12 @@ footer {
     text-align: center;
     position: relative;
     bottom: 50px;
-
     font-family: "Share Tech Mono", monospace;
+}
+.typewrite{
+      display:none;
+    }
+    
   }
 
   #about-me-section {
@@ -257,7 +261,7 @@ footer {
     bottom: 0;
     top: 500px;
   }
-}
+
 
 @media screen and (max-width: 600px) {
   .fab,
