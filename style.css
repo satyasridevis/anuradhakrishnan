@@ -233,11 +233,10 @@ footer {
     position: relative;
     bottom: 50px;
     font-family: "Share Tech Mono", monospace;
-}
-.typeeffect{
-      display:none;
-    }
-    
+  }
+
+  .typeeffect {
+    display:none;
   }
 
   #about-me-section {
@@ -261,7 +260,7 @@ footer {
     bottom: 0;
     top: 500px;
   }
-
+}
 
 @media screen and (max-width: 600px) {
   .fab,
@@ -289,6 +288,9 @@ footer {
     text-align: center;
     position: relative;
     font-family: "Share Tech Mono", monospace;
+  }
+  .typeeffect {
+    display:none;
   }
   #about-me-section {
     width: 100%;
